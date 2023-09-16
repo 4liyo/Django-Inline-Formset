@@ -15,6 +15,7 @@ When rendering an inline formset in a template, you can iterate over the formset
 Each form within the formset represents a child model instance associated with the parent model.
 You can render the form fields for each child form and handle form validation and submission as you would with regular forms.
 
+<h1>Creating, Updating, and Deleting:</h1>
 Inline formsets provide a convenient way to create, update, and delete child model instances associated with a parent model instance.
 You can dynamically add or remove child forms from the formset within the template using JavaScript or Django's formset management forms.
 When saving the formset, it automatically handles creating new child objects, updating existing ones, and deleting removed ones.

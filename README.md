@@ -11,6 +11,8 @@ The formset class is based on the parent model's form and includes additional fo
 
 The child model (the "many" side of the relationship) should have a foreign key field that establishes the relationship with the parent model((the "one" side of the relationship).The parent can have more than one child. It allows you to associate each child form with the correct parent object when saving the formset.
 
+Management of multiple forms: Inline formsets manage multiple forms automatically. They handle form validation, formsets' management forms, and error rendering for all the forms in the formset.
+
 <h4>Rendering and Handling:</h4>
 When rendering an inline formset in a template, you can iterate over the formset forms using a loop.
 Each form within the formset represents a child model instance associated with the parent model.
